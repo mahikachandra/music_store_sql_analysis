@@ -4,7 +4,7 @@ SQL project to analyze online music store data
 ![image](https://github.com/user-attachments/assets/d57b8ccd-92e2-4898-ae3e-f6b4d4a5eb24)
 
 
-# Objective
+## Objective
 This project focuses on analyzing a digital music store dataset using SQL. It aims to extract valuable insights into customer behavior, sales trends, and market dynamics. The project utilizes a diverse set of SQL techniques, including window functions, common table expressions (CTEs), aggregate functions, joins etc to answer a series of business questions ranging from simple queries to complex analyses.
 
 ## Database and Tools
@@ -13,6 +13,42 @@ This project focuses on analyzing a digital music store dataset using SQL. It ai
 
 Schema- Music Store Database
 ![image](https://github.com/user-attachments/assets/358d63d8-ddc0-4d59-b5c2-bdf81abfb024)
+
+### Question Set 1 - Easy
+
+1. Who is the senior most employee based on job title?
+2. Which countries have the most Invoices?
+3. What are top 3 values of total invoice?
+4. Which city has the best customers? We would like to throw a promotional Music 
+Festival in the city we made the most money. Write a query that returns one city that 
+has the highest sum of invoice totals. Return both the city name & sum of all invoice 
+totals
+5. Who is the best customer? The customer who has spent the most money will be 
+declared the best customer. Write a query that returns the person who has spent the 
+most money
+
+### Question Set 2 – Moderate
+
+1. Write query to return the email, first name, last name, & Genre of all Rock Music 
+listeners. Return your list ordered alphabetically by email starting with A
+2. Let's invite the artists who have written the most rock music in our dataset. Write a 
+query that returns the Artist name and total track count of the top 10 rock bands
+3. Return all the track names that have a song length longer than the average song length. 
+Return the Name and Milliseconds for each track. Order by the song length with the 
+longest songs listed first
+
+### Question Set 3 – Advance
+
+1. Find how much amount spent by each customer on artists? Write a query to return
+customer name, artist name and total spent
+2. We want to find out the most popular music Genre for each country. We determine the 
+most popular genre as the genre with the highest amount of purchases. Write a query 
+that returns each country along with the top Genre. For countries where the maximum 
+number of purchases is shared return all Genres
+3. Write a query that determines the customer that has spent the most on music for each 
+country. Write a query that returns the country along with the top customer and how
+much they spent. For countries where the top amount spent is shared, provide all 
+customers who spent this amount
 
 
 
